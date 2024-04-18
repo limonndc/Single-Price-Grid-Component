@@ -1,0 +1,91 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }
+ body{
+  font-family:'Karla',sans-serif;
+  background-color:#E6eff6;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+ }
+ html,body{
+  height:100%;
+ }
+ .container{
+  background-color: #fff;
+  max-width:800px;
+  border-radius: 10px;
+  font-size:18px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.3);
+ }
+ .content{
+  padding:35px;
+ }
+ .container h1{
+  color:#31ADAD;
+ }
+ .container h2{
+  color:#BFD161;
+ }
+ .main-text{
+  margin-top:1rem;
+  color:#31ADAD;
+  opacity:.7;
+ }
+ .plan{
+  display:flex;
+ }
+ .plan>div{
+  flex:1;
+ }
+ .monthly-subscription {
+  background-color:#2BB381;
+  color:#fff;
+  padding:35px;
+ }
+ .monthly-subscription p{
+  line-height:1.5rem;
+  margin-top:1rem;
+ }
+ .dollar{
+  font-size:2rem;
+  font-weight:700;
+ }
+ .dollar-text{
+  opacity:.7;
+ }
+ .monthly-subscription div{
+  margin-top:1rem;
+ }
+ .btn{
+  width:100%;
+  padding:15px 0;
+  border-radius:5px;
+  text-align:center;
+  margin-top:40px;
+  font-size:20px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.3);
+  background:yellowgreen;
+ }
+ .btn a{
+  color:#fff;
+  text-decoration:none;
+ }
+ .why-us{
+  background-color:#4ABEBD;
+  color:#fff;
+  padding:35px;
+ }
+ .why-us p{
+  line-height:1.5rem;
+  opacity:.7;
+  margin-top:1rem;
+ }
+ @media screen and(max-width:800px){
+  .plan{
+    flex-direction:column;
+  }
+ }
